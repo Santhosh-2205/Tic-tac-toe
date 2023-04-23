@@ -21,7 +21,7 @@ This is a command-line implementation of the classic tic-tac-toe game written in
 
     Clone the repository to your local machine.
     Open a terminal and navigate to the project directory.
-    Compile the program using the command g++ -o tictactoe main.cpp.
+    Compile the program using the command g++ -o tictactoe ttt.cpp
     Run the program using the command ./tictactoe.
     If you want to start the game enter 1, if you want the bot to start the game enter 2.
     The first player will be "X" and the second player will be "O"
