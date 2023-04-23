@@ -58,7 +58,7 @@ void tic_tac_toe::user_move()
     std::cout<<"Enter the box number of your move: (1-9) ";
     std::cin>>x;
     x--;
-    board[x/3][x%3] = 'O';
+    board[x/3][x%3] = user;
     turn++;
 }
 
