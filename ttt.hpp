@@ -258,7 +258,7 @@ int tic_tac_toe::nxt_row_win(char c)
         if(board[1][2] == ' ')
             return 5;
     }
-    if(board[2][0] + board[2][1] + board[2][2] == 2*c )
+    if(board[2][0] + board[2][1] + board[2][2] == 2*c + ' ')
     {
         if(board[2][0] == ' ')
             return 6;
